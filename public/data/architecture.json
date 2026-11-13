@@ -1,0 +1,1798 @@
+{
+ "focus": {
+  "v2lite": {
+   "id": "v2lite",
+   "name": "DeepSeek-V2-Lite",
+   "layers": 27,
+   "hidden": 2048,
+   "heads": 16,
+   "kvHeads": 16,
+   "headDim": 192,
+   "qLora": null,
+   "kvLora": 512,
+   "vocab": 102400,
+   "experts": 64,
+   "shared": 2,
+   "topk": 6,
+   "moeInter": 1408,
+   "denseInter": 10944,
+   "firstDense": 1,
+   "mtp": 0,
+   "plan": [
+    {
+     "layer": 0,
+     "ffn": "dense",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 1,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 2,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 3,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 4,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 5,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 6,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 7,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 8,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 9,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 10,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 11,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 12,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 13,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 14,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 15,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 16,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 17,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 18,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 19,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 20,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 21,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 22,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 23,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 24,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 25,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 26,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    }
+   ],
+   "attention": {
+    "q": 6291456,
+    "kv_a": 1180160,
+    "kv_b": 2097152,
+    "o": 4194304,
+    "norm": 4608,
+    "total": 13763072,
+    "q_lora": null,
+    "kv_lora": 512,
+    "o_lora": null,
+    "nope": 128,
+    "rope": 64,
+    "v": 128,
+    "heads": 16
+   },
+   "tie": false,
+   "scoring": "softmax",
+   "topkMethod": "greedy",
+   "routedScale": 1.0,
+   "normTopk": false,
+   "indexTopk": null,
+   "sliding": null,
+   "hashLayers": 0,
+   "nGroups": 1,
+   "topkGroup": 1,
+   "qkRope": 64,
+   "qkNope": 128,
+   "vHead": 128,
+   "oGroups": null,
+   "oLora": null
+  },
+  "v3": {
+   "id": "v3",
+   "name": "DeepSeek-V3",
+   "layers": 61,
+   "hidden": 7168,
+   "heads": 128,
+   "kvHeads": 128,
+   "headDim": 192,
+   "qLora": 1536,
+   "kvLora": 512,
+   "vocab": 129280,
+   "experts": 256,
+   "shared": 1,
+   "topk": 8,
+   "moeInter": 2048,
+   "denseInter": 18432,
+   "firstDense": 3,
+   "mtp": 1,
+   "plan": [
+    {
+     "layer": 0,
+     "ffn": "dense",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 1,
+     "ffn": "dense",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 2,
+     "ffn": "dense",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 3,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 4,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 5,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 6,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 7,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 8,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 9,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 10,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 11,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 12,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 13,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 14,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 15,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 16,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 17,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 18,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 19,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 20,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 21,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 22,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 23,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 24,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 25,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 26,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 27,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 28,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 29,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 30,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 31,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 32,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 33,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 34,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 35,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 36,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 37,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 38,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 39,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 40,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 41,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 42,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 43,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 44,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 45,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 46,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 47,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 48,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 49,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 50,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 51,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 52,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 53,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 54,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 55,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 56,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 57,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 58,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 59,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 60,
+     "ffn": "moe",
+     "attn": "mla",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    }
+   ],
+   "attention": {
+    "q": 48760320,
+    "kv_a": 4129280,
+    "kv_b": 16777216,
+    "o": 117440512,
+    "norm": 16384,
+    "total": 187107328,
+    "q_lora": 1536,
+    "kv_lora": 512,
+    "o_lora": null,
+    "nope": 128,
+    "rope": 64,
+    "v": 128,
+    "heads": 128
+   },
+   "tie": false,
+   "scoring": "sigmoid",
+   "topkMethod": "noaux_tc",
+   "routedScale": 2.5,
+   "normTopk": true,
+   "indexTopk": null,
+   "sliding": null,
+   "hashLayers": 0,
+   "nGroups": 8,
+   "topkGroup": 4,
+   "qkRope": 64,
+   "qkNope": 128,
+   "vHead": 128,
+   "oGroups": null,
+   "oLora": null
+  },
+  "v4flash": {
+   "id": "v4flash",
+   "name": "DeepSeek-V4-Flash",
+   "layers": 43,
+   "hidden": 4096,
+   "heads": 64,
+   "kvHeads": 1,
+   "headDim": 512,
+   "qLora": 1024,
+   "kvLora": null,
+   "vocab": 129280,
+   "experts": 256,
+   "shared": 1,
+   "topk": 6,
+   "moeInter": 2048,
+   "denseInter": 0,
+   "firstDense": 0,
+   "mtp": 1,
+   "plan": [
+    {
+     "layer": 0,
+     "ffn": "moe",
+     "attn": "sliding",
+     "compress": 0,
+     "hash": true,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 1,
+     "ffn": "moe",
+     "attn": "sliding",
+     "compress": 0,
+     "hash": true,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 2,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": true,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 3,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 4,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 5,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 6,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 7,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 8,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 9,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 10,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 11,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 12,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 13,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 14,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 15,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 16,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 17,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 18,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 19,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 20,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 21,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 22,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 23,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 24,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 25,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 26,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 27,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 28,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 29,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 30,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 31,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 32,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 33,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 34,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 35,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 36,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 37,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 38,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 39,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 40,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 41,
+     "ffn": "moe",
+     "attn": "hca",
+     "compress": 128,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    },
+    {
+     "layer": 42,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 4,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": false
+    }
+   ],
+   "attention": {
+    "q": 37749760,
+    "kv_a": 2359808,
+    "kv_b": 31457280,
+    "o": 67108864,
+    "norm": 9728,
+    "total": 138675712,
+    "q_lora": 1024,
+    "kv_lora": null,
+    "o_lora": 1024,
+    "nope": 448,
+    "rope": 64,
+    "v": 512,
+    "heads": 64
+   },
+   "tie": false,
+   "scoring": "sqrtsoftplus",
+   "topkMethod": "noaux_tc",
+   "routedScale": 1.5,
+   "normTopk": true,
+   "indexTopk": 512,
+   "sliding": 128,
+   "hashLayers": 3,
+   "nGroups": null,
+   "topkGroup": null,
+   "qkRope": 64,
+   "qkNope": 448,
+   "vHead": 512,
+   "oGroups": 8,
+   "oLora": 1024
+  },
+  "v41flash": {
+   "id": "v41flash",
+   "name": "DeepSeek-V4.1-Flash",
+   "layers": 40,
+   "hidden": 5120,
+   "heads": 64,
+   "kvHeads": 1,
+   "headDim": 512,
+   "qLora": 1280,
+   "kvLora": null,
+   "vocab": 129280,
+   "experts": 384,
+   "shared": 1,
+   "topk": 6,
+   "moeInter": 2304,
+   "denseInter": 0,
+   "firstDense": 0,
+   "mtp": 3,
+   "plan": [
+    {
+     "layer": 0,
+     "ffn": "moe",
+     "attn": "sliding",
+     "compress": 0,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 1,
+     "ffn": "moe",
+     "attn": "sliding",
+     "compress": 0,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 2,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": true
+    },
+    {
+     "layer": 3,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 4,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 5,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 6,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 7,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 8,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": true
+    },
+    {
+     "layer": 9,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 10,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 11,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 12,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 13,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 14,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": true
+    },
+    {
+     "layer": 15,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 16,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 17,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 18,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 19,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 2,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 20,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": false,
+     "kv_source": true
+    },
+    {
+     "layer": 21,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 22,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 23,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 24,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 25,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 26,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 27,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 28,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 29,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 30,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 31,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 32,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 33,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 34,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 35,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 36,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 37,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 38,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    },
+    {
+     "layer": 39,
+     "ffn": "moe",
+     "attn": "csa",
+     "compress": 1,
+     "hash": false,
+     "kv_shared": true,
+     "kv_source": false
+    }
+   ],
+   "attention": {
+    "q": 48497920,
+    "kv_a": 2949632,
+    "kv_b": 31457280,
+    "o": 75497472,
+    "norm": 12032,
+    "total": 158402304,
+    "q_lora": 1280,
+    "kv_lora": null,
+    "o_lora": 1024,
+    "nope": 448,
+    "rope": 64,
+    "v": 512,
+    "heads": 64
+   },
+   "tie": false,
+   "scoring": "sqrtsoftplus",
+   "topkMethod": "noaux_tc",
+   "routedScale": 1.5,
+   "normTopk": true,
+   "indexTopk": 512,
+   "sliding": 128,
+   "hashLayers": 0,
+   "nGroups": null,
+   "topkGroup": null,
+   "qkRope": 64,
+   "qkNope": 448,
+   "vHead": 512,
+   "oGroups": 8,
+   "oLora": 1024
+  }
+ },
+ "comparison": [
+  {
+   "id": "v2lite",
+   "name": "DeepSeek-V2-Lite",
+   "layers": 27,
+   "hidden": 2048,
+   "experts": 64,
+   "topk": 6,
+   "active": 2400000000.0,
+   "total": 15700000000.0,
+   "context": 163840
+  },
+  {
+   "id": "v3",
+   "name": "DeepSeek-V3",
+   "layers": 61,
+   "hidden": 7168,
+   "experts": 256,
+   "topk": 8,
+   "active": 37000000000.0,
+   "total": 671000000000.0,
+   "context": 163840
+  },
+  {
+   "id": "v4flash",
+   "name": "DeepSeek-V4-Flash",
+   "layers": 43,
+   "hidden": 4096,
+   "experts": 256,
+   "topk": 6,
+   "active": 13000000000.0,
+   "total": 284000000000.0,
+   "context": 1048576
+  },
+  {
+   "id": "v41flash",
+   "name": "DeepSeek-V4.1-Flash",
+   "layers": 40,
+   "hidden": 5120,
+   "experts": 384,
+   "topk": 6,
+   "active": 16000000000.0,
+   "total": 552000000000.0,
+   "context": 1048576
+  }
+ ],
+ "assumptions": [
+  "MLA and expert shapes are exact products of the config's named dimensions.",
+  "V4's grouped low-rank output projection (o_groups, o_lora_rank) is counted as H\u00b7v\u00b7o_lora + groups\u00b7o_lora\u00b7d; the config does not publish the exact factorisation.",
+  "Published totals exclude the MTP block; the same convention is used here so the checks are comparable."
+ ]
+}
